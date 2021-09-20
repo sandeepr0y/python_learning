@@ -1,4 +1,4 @@
-# python_learning
+# Python Learning
 
 This contains my practice code
 
