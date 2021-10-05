@@ -77,6 +77,15 @@ class MyDoublyLinkedList(object):
             self.first.prev = None
         return d
 
+    def pop_last(self):
+        d = self.last.data
+        self.last = self.last.prev
+        if self.last is None:
+            self.first = None
+        else:
+            self.last.next = None
+        return d
+
     def remove(self, idx):
         if idx == 0:
             self.pop()

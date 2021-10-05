@@ -160,7 +160,6 @@ class MyHashMap(object):
 
 if __name__ == '__main__':
     m = MyHashMap()
-    print('--------- Actual internal storage ----------')
 
     m['name'] = 'Ramesh'
     m['age'] = 36
